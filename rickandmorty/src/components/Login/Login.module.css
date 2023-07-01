@@ -1,0 +1,57 @@
+.divContainer{
+    width: 320px;
+   
+    min-height: 270px;
+    border: 2px solid green;
+    background: rgba(59, 62, 89, 0.733);
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 10px 50px 20px;
+    opacity: 0.93;
+}
+.divContainer2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+}
+
+.divContainer label, input{
+    margin: 10px 5px;
+    height: 25px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+.divContainer button{
+    width: 150px;
+    height: 35px;
+    background-color: rgba(59, 62, 89, 0.733);
+    color: white;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divContainer button:hover{
+    
+    background-color: rgba(78, 197, 78, 0.726);
+    color: rgb(21, 21, 21);
+   
+}
+
+.danger{
+    color: rgb(129, 10, 10);
+   /* border: 1px solid red;*/
+    background-color: rgb(245, 166, 166);
+    /*padding: 8px;*/
+    border-radius: 5px;
+}
+.warning{
+   color:red;
+    border: 2px solid red;
+  /*  background-color: lightcoral; */
+}
+.st.h1T{
+    color:green;
+}

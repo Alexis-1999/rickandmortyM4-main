@@ -1,0 +1,9 @@
+.cardsStyles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:15px;
+    font-size: 0.3cm;
+}

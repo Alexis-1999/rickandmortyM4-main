@@ -1,0 +1,64 @@
+.container {
+    /* background: url('./fondo_r_morty.png'); */
+     width: 100vw;
+     height: 100px;
+     color: #f6f4e6;
+     display: flex;
+   }
+ .menu {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     position: absolute;
+     width: 100vw;
+     height: 70px;
+    /* top: -2%;*/
+     border-bottom: 2px solid lightgray;
+   }
+   .menu li{
+     text-decoration: none;
+     font-weight: 500;
+     display: flex;
+    
+     transition: all 0.2s ease-in-out;
+   }
+   .li_s {
+     color:whitesmoke;
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 20px;
+     display: inline-block;
+     -webkit-transition: all 0.2s ease-in-out;
+     transition: all 0.2s ease-in-out;
+     text-shadow: 1px 1px 1px #436c43, -1px -1px 1px #485e48, -1px 1px 1px #436c43, 1px -1px 1px #485e48;
+   }
+   
+   .li_s:hover {
+     color: #fddb3a;
+     text-decoration: none;
+   }
+   .h2{
+     font-size: 2.5em;
+     color:rgb(11, 11, 11);
+     text-shadow: 3px 3px 4px #0ceb0c, -3px -3px 4px #47f547, -3px 3px 4px #11f911, 3px -3px 4px #1de71d
+   }
+   .active{
+     color:lime;
+     text-decoration: none;
+     font-size: 20px; text-shadow: 1px 1px 1px #436c43, -1px -1px 1px #485e48, -1px 1px 1px #436c43, 1px -1px 1px #485e48;
+   }
+   .disabled{
+     color:whitesmoke;
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 20px;
+     display: inline-block;
+     -webkit-transition: all 0.2s ease-in-out;
+     transition: all 0.2s ease-in-out;
+     text-shadow: 1px 1px 1px #436c43, -1px -1px 1px #485e48, -1px 1px 1px #436c43, 1px -1px 1px #485e48;
+   }
+   
+   .disabled:hover {
+     color: #fddb3a;
+     text-decoration: none;
+   }

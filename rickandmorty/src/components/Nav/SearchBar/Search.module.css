@@ -1,0 +1,54 @@
+.boton{
+    color: rgb(243, 250, 244); 
+    background-color: Green; 
+    padding: 5px 15px;
+
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.0em;
+    width: 150px;
+    height: 35px;
+
+
+}
+.boton:hover {
+    background-color: #5dc45dfa; 
+    color: black;
+    font-weight: bolder;
+    border: 2px solid green;
+}
+.boton1{
+    color: rgb(0, 0, 0); 
+    background-color: #1d971dfa; 
+    padding: 5px 15px;
+
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.0em;
+    width: 150px;
+    height: 35px;
+
+
+}
+.boton1:hover {
+    background-color: rgba(3, 47, 25, 0.276); 
+    color: rgb(225, 52, 52);
+    border: 3px solid rgb(242, 52, 52);
+    font-weight: bolder;
+}
+.inp{
+    height: 32px;
+    border-radius: 5px;
+    font-size: 1.0em;
+    width: 100px;
+}
+
+.divS{
+    display: inline-block;  
+    /* opacity: 0.4;
+    margin: 10px;
+    background: aqua; */
+}
+h2{
+    display: inline-block;
+}
